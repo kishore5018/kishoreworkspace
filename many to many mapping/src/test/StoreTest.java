@@ -11,6 +11,7 @@ import entitys.User;
 
 public class StoreTest {
 	public static void main(String[] args) {  
+		System.out.println("hai");
 		Session session=new Configuration().configure().buildSessionFactory().openSession();  
 		Transaction tx=session.beginTransaction();  
 		  
